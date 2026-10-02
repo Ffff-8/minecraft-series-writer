@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b120e" />
+<meta name="color-scheme" content="dark" />
+<meta name="description" content="Centro di controllo persistente per scrivere e organizzare una serie narrativa ambientata in Minecraft." />
+<title>Minecraft Series Writer</title>
+<link rel="manifest" href="manifest.json" />
+
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="MC Writer" />
+<link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/png;base64,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" />
+</head>
+<body>
+<div class="app" id="app">
+  <aside class="sidebar" id="sidebar" aria-label="Menu principale">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">⛏️</div>
+      <div class="brand-txt">
+        <strong>Minecraft Series Writer</strong>
+        <small>Centro di controllo narrativo</small>
+      </div>
+    </div>
+    <nav class="mainnav" id="mainnav"></nav>
+    <div class="sidebar-foot">
+      <div class="row tight">
+        <button class="btn ghost block sm" data-act="export-json">⬇️ Esporta</button>
+        <button class="btn ghost block sm" data-act="import-json">⬆️ Importa</button>
+      </div>
+      <div class="save-ind" id="saveInd" data-savestatus="1" title="Stato del salvataggio">
+        <span class="dot"></span><span class="si-txt">✓ Salvato</span>
+      </div>
+      <div class="storage-line" id="storageLine"></div>
+    </div>
+  </aside>
+  <div class="nav-scrim" id="navScrim" data-act="close-nav"></div>
+
+  <div class="main-col">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" data-act="toggle-nav" aria-label="Apri menu">☰</button>
+      <div class="proj-title" id="projTitle"><span class="pt-name">La mia serie</span><span class="pt-meta"></span></div>
+      <div class="topbar-actions">
+        <span class="save-chip" id="topSave" data-savestatus="1" data-act="save-now" role="button" tabindex="0" title="Salva ora tutto il lavoro">✓ Salvato</span>
+        <button class="icon-btn" data-act="open-search" title="Ricerca globale (Ctrl+K)" aria-label="Ricerca">🔎</button>
+        <button class="btn ghost hide-sm" data-act="nav" data-route="writing" title="Modalità scrittura">✍️ <span class="hide-sm">Scrivi</span></button>
+        <button class="btn ghost hide-sm" data-act="nav" data-route="reading" title="Modalità lettura">📖 <span class="hide-sm">Leggi</span></button>
+      </div>
+    </header>
+    <main class="view" id="view" role="main"></main>
+  </div>
+</div>
+
+<nav class="bottom-nav" id="bottomNav" aria-label="Navigazione rapida"></nav>
+<button class="fab" id="fab" data-act="quick-idea" title="Idea veloce" aria-label="Idea veloce">＋ IDEA</button>
+<div class="modal-root" id="modalRoot" hidden></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden />
+
+<script src="core.js"></script>
+<script src="views-story.js"></script>
+<script src="views-cast.js"></script>
+<script src="views-extras.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
